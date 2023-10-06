@@ -1,4 +1,4 @@
-<p>first works!</p>
+<p>First Component works!</p>
 
 <h2>Diretivas</h2>
 
@@ -6,4 +6,6 @@
 <p *ngFor="let nome of nomes">{{ nome }}</p>
 
 <h3>*ngIf: </h3>
-<p *ngIf="show">Um texto qualquer.</p>
+<div *ngIf="!show ; else otherText">Um texto qualquer.</div>
+
+<ng-template #otherText>Um segundo texto qualquer.</ng-template>

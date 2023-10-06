@@ -11,7 +11,4 @@ export class FirstComponent {
     
     show = true
 
-
-
-
 }
