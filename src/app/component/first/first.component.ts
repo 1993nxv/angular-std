@@ -7,8 +7,6 @@ import { Component } from '@angular/core';
 })
 export class FirstComponent {
 
-    nomes: string[] = ["Maria", "Lucas", "Pedro"]
-    
     show = true
 
 }
